@@ -1,0 +1,160 @@
+body {
+  border: #ffd24a;
+  background-image: url(./img/bg.jpg);
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+#site_header {
+  margin: auto;
+  background: #ff8523;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#logo {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+#page_content {
+  padding: 20px;
+}
+
+body>div {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 6px;
+  background: white;
+  border-style: groove;
+  border-color: #ffd24a;
+}
+
+a:-webkit-any-link {
+  color: #1fabe5;
+}
+
+.main_navigation a {
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main_navigation a:hover {
+  color: white;
+  background-color: #D1D67C;
+}
+
+li {
+  font-weight: bold;
+}
+
+h2, h3 {
+  color: #1fabe5
+}
+
+table {
+  border-collapse: collapse;
+  font-family: inherit;
+}
+
+thead {
+  height: 50px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #1fabe5;
+}
+
+thead>tr>td {
+  background-color: #1fabe5;
+  color: white;
+  border-color: #046c97;
+}
+
+section>table, tr, td {
+  font-size: medium;
+  margin-left: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+tbody>tr>td>img {
+  max-width: 50px;
+  display: block;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form {
+  border-radius: 5px;
+  background: #eee;
+  font-weight: bold;
+  padding: 20px;
+}
+
+textarea {
+  margin-top: 15px;
+  font-size: medium;
+  padding-left: 10px;
+}
+
+.city_container {
+  padding: 30px 10px;
+}
+
+.name {
+  border: 1px groove #ff8523;
+  border-radius: 5px;
+  background: #ff8523;
+  color: white;
+  padding: 20px;
+}
+
+#bio {
+  padding-top: 10px;
+  padding-right: 200px;
+  border-color: #1fabe5;
+}
+
+.submit_container {
+  padding-top: 20px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: :#1fabe5;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+}
+
+
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
